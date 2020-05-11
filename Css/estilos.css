@@ -1,0 +1,38 @@
+body {
+    background-image: url('https://kbdevstorage1.blob.core.windows.net/asset-blobs/19201_en_1');
+    background-size: 100vw auto;
+    font-family: Arial;
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: white; 
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none; 
+  }
+  
+  a {
+    color: purple;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-subtitle,
+  .site-title {
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
